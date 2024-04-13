@@ -15,7 +15,7 @@ export interface SwipeButtonTextProps {
   /**
    * The text that will be displayed in the container
    */
-  title: string;
+  title: string | React.ReactNode;
 
   /**
    * Additional props for the title text
